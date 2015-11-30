@@ -19,6 +19,7 @@ Public Class Form1
                 Console.WriteLine(File.Name)
                 CreateHardLink(out.Text + "\" + File.Name, File.FullName, IntPtr.Zero)
             Next
+
         End If
 
     End Sub
